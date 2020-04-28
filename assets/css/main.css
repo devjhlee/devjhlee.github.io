@@ -50,5 +50,6 @@
 }
 .tech_table td{
 	font-family: inherit;
-	font-weight: 70;
+    font-weight: 700;
+    text-align: center;
 }
