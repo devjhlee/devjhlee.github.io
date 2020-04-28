@@ -26,6 +26,12 @@
 	margin: 0 auto;
 	max-width: 960px
 }
+
+@media only screen and (min-width:550px) {
+	#skills {
+		width: 80%
+	}
+}
 .techImg { 
 	width: 70px;
 	height: 70px;
