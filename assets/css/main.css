@@ -30,7 +30,7 @@
 #about {
 	width: 90%;
 	margin: 0 auto;
-	max-width: 960px
+    max-width: 960px
 }
 
 @media only screen and (min-width:550px) {
@@ -59,6 +59,7 @@
     font-weight: 700;
 }
 .table_ele{
+    text-align: center;
 	font-family: inherit;
 	font-weight: 700;
     line-height: 200%
