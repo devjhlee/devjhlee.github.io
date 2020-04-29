@@ -49,12 +49,12 @@
     display: inline;
 }
 .tech_table td{
-	font-family: initial;
+	font-family: inherit;
     font-weight: 700;
 }
 .table_ele{
     text-align: center;
-	font-family: initial;
+	font-family: inherit;
 	font-weight: 700;
     line-height: 200%
 }
