@@ -45,11 +45,17 @@
 .tech_box{
 	border: 0px solid black;
 }
-.tech_table{
+
+.line{
+	text-align:center; 
+	font-size: large; 
+	valign:top;
 	border-right:none;
 	border-left:none;
 	border-top:none;
 	border-bottom:none;
+}
+.tech_table{
 	display: inline;
 }
 .tech_table td{
