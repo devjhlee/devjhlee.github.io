@@ -48,6 +48,7 @@
 
 .tech_table{
 	display: inline;
+	margin-left: 0;
 }
 .tech_table td{
 	font-family: inherit;
