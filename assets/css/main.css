@@ -64,3 +64,22 @@
 	font-weight: 700;
     line-height: 200%
 }
+.usertech {
+	text-align: center;
+/* 	font-size: 60px;	 */
+/* 	display: flex; */
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	display: inline;
+}
+.usertech p {
+	font-size: 16px
+}
+
+@media only screen and (min-width:550px) {
+	.usertech {
+		flex-wrap: nowrap;
+/* 		font-size: 75px */
+	}
+}
