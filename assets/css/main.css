@@ -21,14 +21,14 @@
 	color: indianred;
 	font-size: large;
 }
-#about {
+#skills {
 	width: 90%;
 	margin: 0 auto;
     max-width: 960px
 }
 
 @media only screen and (min-width:550px) {
-	#about {
+	#skills {
 		width: 80%
 	}
 }
@@ -46,6 +46,10 @@
 	border: 0px solid black;
 }
 .tech_table{
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	border-bottom:none;
 	display: inline;
 }
 .tech_table td{
