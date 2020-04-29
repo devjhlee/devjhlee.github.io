@@ -46,7 +46,8 @@
 	border: 0px solid black;
 }
 .tech_table{
-    display: inline;
+	display: inline;
+	border: none;
 }
 .tech_table td{
 	font-family: inherit;
