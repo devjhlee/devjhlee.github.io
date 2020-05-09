@@ -11,11 +11,11 @@
       <ul>
         <li>Android, Kotlin, XML, Firebase ML Kit, Google Map, MVVM, ACC, Multi Thread</li>
       </ul>
-      <p>이미지 태그 및 특징/위치/날짜 분류를 통한 안드로이드 사진 관리 애플리케이션</p>
-      <p>본 프로그램은 폴더, 특징, 날짜, 위치 별 관리가 가능합니다​.
-        본 프로그램의 핵심인 태그는 이미지를 분석하여 자동으로 추출하거나, 사용자가 직접 추가, 수정, 삭제가 가능합니다.​
-        이를 활용하여 캘린더에서 월별로 특징들을 확인하거나, 지도를 직접 돌아보며 특징을 확인할 수 있도록 분류된 사진에 중첩하여 태그에 대한 연관성을 극대화 하였습니다.
-        </p><p>이를 통해 사용자의 사진들에 대한 접근성을 극대화한 것이 본 프로그램의 가장 큰 특징입니다.</p>
+      <p>이미지 태그 및 특징/위치/날짜 분류를 통한 안드로이드 사진관리 애플리케이션</p>
+      <p>본 프로그램은 Android Studio 상에서 코틀린 언어로 개발된 고급 사진관리 애플리케이션 입니다. 안드로이드 AAC의 MVVM 디자인 패턴과 Livedata, Room DB를 활용하여 전체적인 아키텍처를
+        구조화 하였습니다. 그렇기 때문에 DB에 접근하는 모든 기능은 ThreadPool을 활용하여 비동기적으로 동작하도록 구현하였고, 그와 동시에 핸들러를 활용하여 메인 UI 쓰레드에서 실시간으로 동작하도록 하여 
+        성능적인 부분을 최상으로 유지하고 있습니다. 또한 Firebase ML Kit 내의 머신러닝 API를 활용하며, Google Map API 내에 존재하는 대부분의 기능을 커스텀으로 구현하였고 클러스터링 라이브러리를 적극적으로 활용하여 구현하였습니다.
+        </p><p><small>현재 본 프로그램은 구글 플레이에 정식 런칭 중입니다.</small></p>
       <a class="project-link" href="https://github.com/hwanine/Wimmy-WhereIsMyMemory">Repo & Readme</a>
       <a class="project-link" href="https://play.google.com/store/apps/details?id=com.jtsoft.wimmy">App Link</a>
     </div>
@@ -27,12 +27,13 @@
     <div class="six columns">
       <h5> Leaning Group Application </h5>
       <ul>
-        <li>Android, Java, XML, AWS, Php, MySQL, Apache</li>
+        <li>Android, Java, XML, AWS, Php, MySQL, Apache, JSON</li>
       </ul>
-      <p>Learning Group In Changwon N.Univ.는 창원대학교 학생들을 대상으로 편리하게 소모임 생성 및 참여를 할 수 있도록 하는 기능을 제공하는 애플리케이션입니다.</p>
-      <p>저희 팀은 이와 같은 기존 소프트웨어의 단점을 해소하였고, 장점을 부각시켜 학업 관련 모임에 더욱 비중을 
-        두어 학습과 관련된 카테고리들을 제공하고, 창원대학교 학생들의 커뮤니티 활성화를 통해 학생들 간의 활발한 교류의 
-        발생과 모든 학생들이 학업 역량증진을 성취하는 것을 목표로 하였습니다.</p>
+      <p>교내 학생들을 위한, 모임 관리 애플리케이션</p>
+      <p>본 프로그램은 Android Studio 상에서 자바 언어로 개발된 모임관리 애플리케이션 입니다. Amazon AWS 인스턴스를 생성한 후, 아파치 서버와 DB인 MySQL을 구동하여 웹 서버를 구축하였습니다.
+        또한 php를 활용하여 RestAPI를 개발하여 서버에 적재하였고, 이에 따라 클라이언트인 안드로이드에서 JSON 방식으로 적재된 RestAPI와 통신을 하여 전체적인 시스템이 동작합니다.
+        클라이언트에서는 이러한 서버와의 통신을 통한 데이터를 리스트뷰로 보여주거나 서버에 저장합니다. 또한 BroadcastReciber를 사용하여 특정 조건에 알림이 오도록 동작하고 있습니다. 
+      </p>
       <p><small>이 프로젝트는 소프트웨어 공학론의 Plan-driven, 폭포수 모델을 따라서 개발이 진행되었습니다.</small></p>
       <a class="project-link" href="https://github.com/hwanine/LeaningGroupApplication">Repo & Readme</a>
     </div>
@@ -46,9 +47,12 @@
       <ul>
         <li>C++, OpenCV, Visual Studio</li>
       </ul>
-      <p>본 프로젝트는 콘크리트를 둘로 쪼갰을 때, 양쪽 콘크리트 단면에서의 에폭시라는 불순물을 검출하는 것을 목적으로 합니다.</p>
-      <p>지질학과에서는 에폭시를 수동으로 일일이 검출한다는 것음 알게되었고, 심지어 한 쌍의 콘크리트를 분석하는데에 걸리는 소요시간이 약 3시간이 걸린다는 점을 발견하였습니다.
-        따라서 그들에게 유용한 소프트웨어를 제공하고자 콘크리트-에폭시 파편 영상 분석 프로젝트를 수립하였습니다.</p>
+      <p>콘크리트 에폭시 검출 프로그램</p>
+      <p>본 프로그램은 콘크리트를 둘로 쪼갰을 때, 양쪽 콘크리트 단면에서의 에폭시라는 불순물을 검출하는 프로그램입니다. 
+        프로그램은 지질학과에서의 요청으로 개발이 진행되었고, C++ 언어로 OpenCV 라이브러리를 활용하여 개발 완료 되었습니다. 
+        프로그램은 다양한 영상처리 과정을 거쳐서 에폭시를 검출해내어 
+        최종적으로 전체 면적에서의 에폭시 분포도를 검출해냅니다.
+      </p>
       <a class="project-link" href="https://github.com/hwanine/OpenCV-EpoxySearchProject">Repo & Readme</a>
     </div>
   </div>
@@ -61,8 +65,11 @@
       <ul>
         <li> C, Linux, Visual Studio, OS</li>
       </ul>
-      <p>OS에서 동작하는 각각의 요소(Process, Memory, Disk ...)들을 활용하여 가상의 OS를 햄버거가게에 대입하여 
+      <p>OS에서 동작하는 각각의 요소(Process, Memory, Disk ...)들을 활용한 가상의 OS를 햄버거가게에 대입하여 
         구현한 햄버거가게 운영 프로그램</p>
+      <P>프로세스 관리는 다단계 큐 방식으로, 주문큐와 배달큐는 FCFS, 제조큐는 RR로 동작합니다.<br>
+      메모리 관리는 페이징 LRU 알고리즘을 사용합니다.<br>
+      디스크 관리는 SSTF방식을 사용합니다.</P>
       <a class="project-link" href="https://github.com/hwanine/Operation-System-Hamstore">Repo & Readme</a>
     </div>
   </div>
@@ -76,8 +83,9 @@
         <li> HTML, PHP, MySQL, Apache</li>
       </ul>
       <p>원두를 상품으로 취급하는 수익 창출이 가능한 커피 원두 전문 판매 쇼핑몰 웹 사이트</p>
-      <p>커피 소비량 및 소비자들의 고급제품 소비량을 충족시키기위해 일반매장에서는 구매 할수 없는 
-        해외 커피 원두를 주로 판매하는 쇼핑 사이트를 개발하는 것이 최종 목표입니다.</p>
+      <p>본 웹 사이트는 HTML로 기본 웹 페이지 전체 구조를 나눠서 구현하였습니다. 이후, PHP를 활용하여 각각의 구조에 맞는 페이지에 서로
+        다른 결과를 브라우저에 보여줄 수 있도록 하였습니다. 윈도우 아파치 웹 서버를 사용하였고, MySQL을 활용하여 회원 정보와 주문 정보를 관리합니다.
+      </p>
       <a class="project-link" href="https://github.com/hwanine/Coffee-ShopMall">Repo & Readme</a>
     </div>
   </div>
@@ -91,8 +99,8 @@
         <li> Java, Eclipse, Cryptography</li>
       </ul>
       <p>대칭키 암호화 알고리즘을 응용하여 각종 기법을 적절하게 효과적으로 결합한 복합적인 암호화 프로그램</p>
-      <p>전치, 치환, 교차, 달팽이배열, XOR, 반복 연산 등의 여러 가지 기법들이 전부 따로따로 연산을 진행되는 것이 
-        아닌 모든 기법들이 조화를 이루며 기법들 간에 시너지를 발생하여 연산이 진행되기 떄문에 강력한 알고리즘이라고 생각합니다.</p>
+      <p>본 프로그램은 Java 언어로 개발되었으며 GUI를 활용하여 암호화 및 복호화 로직이 정상적으로 동작하는지 손 쉽게 확인할 수 있도록 구현하였습니다.
+        또한 대칭키 암호화 알고리즘을 이용하였고 치환, 전치, XOR, 교차, 반복연산 등, 여러 가지 암호화 기법을 적절하게 효과적으로 이용한 복합적이지만 강력한 암호화 프로그램입니다.</p>
       <a class="project-link" href="https://github.com/hwanine/Crossing-Cryptographic-Program">Repo & Readme</a>
     </div>
   </div>
@@ -105,9 +113,12 @@
       <ul>
         <li> Database, DA#</li>
       </ul>
-      <p>무비넷이라는 사업모델의 시나리오를 정의하고, 
-        이에따라 데이터 모델링을 통하여 데이터베이스 ERD 모델을 설계
+      <p>무비넷 ERD 설계
         </p>
+      <P>무비넷이라는 사업모델의 시나리오를 정의하고, 
+        이에따라 데이터 모델링을 통하여 데이터베이스 ERD 모델을 설계하는 프로젝트입니다.<br>
+      우선 시나리오에 대한 개별적인 모델링을 거친 후, 팀원들과 서로간의 피드백을 통해 통합 모델링을 하였습니다.
+      이후 ERD 모델 내부의 여러가지 자격검증을 거친 후, 최종 ERD 모델을 도출하였습니다. </P>
       <a class="project-link" href="https://github.com/hwanine/Database-Design">Repo & Readme</a>
     </div>
   </div>
@@ -140,6 +151,7 @@
         <li> C, C++, OpenGL, Visual Studio</li>
       </ul>
       <p>OpenGL 라이브러리를 활용한 그림판 프로그램</p>
+      <p>OpenGL 라이브러리를 활용하여 현존하는 그림판의 다양한 기법들을 직접 구현하였습니다.</p>
       <a class="project-link" href="https://github.com/hwanine/OpenGL-MyPaintProject">Repo & Readme</a>
     </div>
   </div>
@@ -155,6 +167,7 @@
       <p>기존의 피아노에서 피아노 있는 건반을 가상화하여 가상 건반을 마우스나 키보드로 입력하여 
         실제 피아노처럼 연주할 수 있도록 하는 가상 피아노 프로그램
         </p>
+        <P>자바를 처음 입문할 때, 개발한 프로그램입니다. Java Swing 객체들을 적극적으로 활용하여 개발하였습니다.</P>
       <a class="project-link" href="https://github.com/hwanine/PianoProject">Repo & Readme</a>
     </div>
   </div>
