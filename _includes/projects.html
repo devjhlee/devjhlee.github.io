@@ -13,7 +13,7 @@
         <li>Android, Kotlin, XML, Firebase ML Kit, Google Map, MVVM, ACC, MultiThread</li>
       </ul>
       <p>이미지 태그 및 특징/위치/날짜 분류를 통한 안드로이드 사진관리 애플리케이션</p>
-      <p>&#8226; <span class="project_bold">코틀린</span> 언어로 개발된 고급 사진관리 애플리케이션<br>&#8226; <span class="project_bold">MediaStore</span> 접근을 통한 안드로이드 디바이스 내부 데이터 컨트롤<br>&#8226; 안드로이드 AAC의 <span class="project_bold">MVVM 디자인 패턴과 Livedata, ViewModel, Room DB</span>를 활용하여 전체적인 아키텍처를
+      <p>&#8226; <span class="project_bold">코틀린</span> 언어로 개발된 고급 사진관리 애플리케이션<br>&#8226; <span class="project_bold">MediaStore</span> 접근을 통한 안드로이드 디바이스 내부 데이터 컨트롤<br>&#8226; 안드로이드 AAC의 <span class="project_bold">MVVM 아키텍처와 Livedata, ViewModel, Room DB</span>를 활용하여 전체적인 아키텍처를
         구조화<br>&#8226; DB에 접근하는 모든 기능은 <span class="project_bold">ThreadPool</span>을 활용하여 비동기적으로 동작 및 핸들러를 활용하여 메인 UI 쓰레드에서 실시간으로 출력하도록 하여 
         성능을 최적으로 유지<br>&#8226; <span class="project_bold">Firebase ML Kit</span> 내의 머신러닝 API(Vision, Translation)를 활용<br>&#8226; <span class="project_bold">Google Map API</span> 내에 존재하는 대부분의 기능과 클리스터링 라이브러리를 커스텀으로 개발
         </p><p><small>현재 본 프로그램은 구글 플레이에 정식 런칭 중입니다.</small></p>
@@ -43,8 +43,31 @@
   <div class="user-details">
   <h2><b> Others </b></h2>
   </div>
+
   <div class="row user-projects">
     <div class="six columns images">
+      <img alt="Corona Busan" src="{{ "/assets/img/pro/CoronaBusan.png" | prepend: site.baseurl }}" />
+    </div>
+    <div class="six columns">
+      <h5> Corona in Busan </h5>
+      <ul>
+        <li>Android, Kotlin, Mvvm, ViewModel, Databinding, LiveData RxJava, Retrofit, Foreground service</li>
+      </ul>
+      <p>부산광역시 시민들을 위한 코로나19 알림 애플리케이션</p>
+      <p>&#8226; <span class="project_bold">코틀린</span> 언어로 개발중인 부산의 코로나19 알림 애플리케이션<br>&#8226; <span class="project_bold">ViewModel, LiveData를 이용한 Mvvm 아키텍처</span> 구조화<br>&#8226; <span class="project_bold">Databinding</span>을 통해 ViewModel과 View를 완전히 분리<br>
+        &#8226; <span class="project_bold">Retrofit</span>과 <span class="project_bold">RxJava(반응형 프로그래밍)</span>을 이용하여 여러 <span class="project_bold">Open RestAPI</span>와 통신하여 데이터 파싱후 가공 및 활용<br><br>
+        &#8226; <span class="project_bold">Google Map API</span>를 활용하여 RestAPI를 통해 얻어온 데이터를 기반으로 코로나 맵 서비스 제공 예정 <span class="project_bold">Foreground service</span>를 통해 확진자 수가 증가하면 알림 제공 예정<br>
+      </p>
+      <p><small>본 프로젝트는 부산광역시에 재능기부 형태로 현재 1인 개발진행중 입니다.</small></p>
+      <a class="project-link" href="https://github.com/hwanine/CoronaBusan" target="_blank">Repo & Readme</a>
+    </div>
+  </div><br>
+  <div class="user-details">
+  <h2><b> Others </b></h2>
+  </div>
+
+  <div class="row user-projects">
+    <div class="six columns">
       <img alt="Epoxy Search" src="{{ "/assets/img/pro/epoxy.jpg" | prepend: site.baseurl }}" />
     </div>
     <div class="six columns">
@@ -63,7 +86,7 @@
   </div>
 
   <div class="row user-projects">
-    <div class="six columns">
+    <div class="six columns images">
       <img alt="Operation System" src="{{ "/assets/img/pro/hamstore.png" | prepend: site.baseurl }}" />
     </div>
     <div class="six columns">
@@ -81,7 +104,7 @@
   </div>
 
   <div class="row user-projects">
-    <div class="six columns images">
+    <div class="six columns">
       <img alt="Coffee ShopMall" src="{{ "/assets/img/pro/coffee.png" | prepend: site.baseurl }}" />
     </div>
     <div class="six columns">
@@ -98,7 +121,7 @@
   </div>
 
   <div class="row user-projects">
-    <div class="six columns">
+    <div class="six columns images">
       <img alt="Crossing" src="{{ "/assets/img/pro/encryption.jfif" | prepend: site.baseurl }}" />
     </div>
     <div class="six columns">
@@ -114,7 +137,7 @@
   </div>
 
   <div class="row user-projects">
-    <div class="six columns images">
+    <div class="six columns">
       <img alt="Database Design" src="{{ "/assets/img/pro/erd.bmp" | prepend: site.baseurl }}" />
     </div>
     <div class="six columns">
@@ -132,7 +155,7 @@
   </div>
 
   <div class="row user-projects">
-    <div class="six columns">
+    <div class="six columns images">
       <img alt="TCP echo" src="{{ "/assets/img/pro/echo.png" | prepend: site.baseurl }}" />
     </div>
     <div class="six columns">
@@ -151,7 +174,7 @@
   </div>
   
   <div class="row user-projects">
-    <div class="six columns images">
+    <div class="six columns">
       <img alt="CheckSum" src="{{ "/assets/img/pro/checksum.png" | prepend: site.baseurl }}" />
     </div>
     <div class="six columns">
@@ -169,7 +192,7 @@
   </div>
 
   <div class="row user-projects">
-    <div class="six columns">
+    <div class="six columns images">
       <img alt="My Paint" src="{{ "/assets/img/pro/paint.bmp" | prepend: site.baseurl }}" />
     </div>
     <div class="six columns">
@@ -184,7 +207,7 @@
   </div>
 
   <div class="row user-projects">
-    <div class="six columns images">
+    <div class="six columns">
       <img alt="Piano" src="{{ "/assets/img/pro/piano.jpg" | prepend: site.baseurl }}" />
     </div>
     <div class="six columns">
