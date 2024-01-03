@@ -25,17 +25,7 @@
 	color: indianred;
 	font-size: large;
 }
-#skills {
-	width: 90%;
-	margin: 0 auto;
-	max-width: 960px
-}
 
-@media only screen and (min-width:550px) {
-	#skills {
-		width: 90%
-	}
-}
 .techImg { 
 	width: 120px;
 	height: 120px;
